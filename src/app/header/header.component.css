@@ -1,0 +1,75 @@
+.header-body{
+  background-color: #2A2927;
+  padding-top:.6rem;
+  padding-bottom:.75rem;
+  font-family: 'Lato', sans-serif;
+  font-size: .75rem;
+}
+div{
+  color: white;
+}
+
+img{
+  width: 6.5rem;
+  vertical-align: middle;
+  padding-left: .15rem;
+}
+
+table{
+  width: 20rem;
+  border-collapse: collapse;
+  float: right;
+}
+tr{
+  padding-top:.15rem;
+}
+
+td{
+  width:50%;
+  padding-top:.3rem;
+}
+
+span{
+  display:inline;
+  vertical-align:middle;
+}
+
+span:hover{
+  color:#8EBA3A;
+  cursor: pointer;
+}
+.icon{
+  font-size: 1rem;
+}
+
+.register{
+  text-align:center;
+  border-right:2px solid white;
+}
+
+.log-in{
+  text-align:center;
+}
+
+a{
+  color:white;
+}
+
+a:hover {
+  color:#8EBA3A;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+  table{
+    width: 100%;
+    border-collapse: collapse;
+    float: left;
+  }
+  td{
+    padding-top:1.5rem;}
+  .register{
+    text-align:center;
+    border-right:0px;
+  }
+}

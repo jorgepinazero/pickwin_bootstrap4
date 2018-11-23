@@ -1,0 +1,16 @@
+.container-fluid{
+  margin:0 !important;
+}
+
+.banner-size{
+  width:30%;
+}
+
+@media only screen and (max-width: 768px) {
+  .banner-size{
+    width:75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

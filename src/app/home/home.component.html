@@ -1,25 +1,159 @@
-  <div class="container-fluid">
+  <!--<div class="container-fluid">-->
     <!--<div class="row">-->
       <!--<div class="col-10 offset-1-->
                 <!--col-sm-10 offset-sm-1-->
                 <!--col-xl-8 offset-xl-2" style="background-color: purple; color: white;">Holi</div>-->
     <!--</div>-->
 
-    <div class="row  justify-content-md-center">
-      <div class="col-10 offset-1
-                col-sm-10 offset-sm-1
-                col-xl-8 offset-xl-1">
-        <img class="banner-size d-md-inline-block d-sm-none d-none" [src]="bannerIzq">
-        <img class="banner-size d-md-inline-block" [src]="bannerCen">
-        <img class="banner-size d-md-inline-block d-sm-none d-none" [src]="bannerDer">
+    <!--<div class="row  justify-content-md-center">-->
+      <!--<div class="col-10 offset-1-->
+                <!--col-sm-10 offset-sm-1-->
+                <!--col-xl-8 offset-xl-1">-->
+        <!--<img class="banner-size d-md-inline-block d-sm-none d-none" [src]="bannerIzq">-->
+        <!--<img class="banner-size d-md-inline-block" [src]="bannerCen">-->
+        <!--<img class="banner-size d-md-inline-block d-sm-none d-none" [src]="bannerDer">-->
+      <!--</div>-->
+    <!--</div>-->
+
+    <div class="container-big">
+      <img class="banner-size-left d-lg-inline-block d-md-none d-none" [src]="bannerIzq">
+      <img class="banner-size d-lg-inline-block" [src]="bannerCen">
+      <img class="banner-size d-lg-inline-block d-md-none d-none" [src]="bannerDer">
+    </div>
+
+    <br>
+    <div class="container-big">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-1 prueba-block">col</div>
+          <div class="col-1 prueba-block">col</div>
+          <div class="col-1 prueba-block">col</div>
+          <div class="col-1 prueba-block">col</div>
+          <div class="col-1 prueba-block">col</div>
+          <div class="col-1 prueba-block">col</div>
+          <div class="col-1 prueba-block">col</div>
+          <div class="col-1 prueba-block">col</div>
+          <div class="col-1 prueba-block">col</div>
+          <div class="col-1 prueba-block">col</div>
+          <div class="col-1 prueba-block">col</div>
+          <div class="col-1 prueba-block">col</div>
+        </div>
       </div>
     </div>
+    <br>
 
-    <div class="row">
-      <div class="col-10 offset-1
-      col-sm-10 offset-sm-1
-      col-xl-8 offset-xl-2" style="background-color: purple; color: white;">Holi</div>
+    <div class="container-big">
+      <div class="container-fluid">
+        <div class="row table-control">
+
+          <div class="table-control--row">
+            CONCURSO<br>
+            <nav class="nav">
+              <li class="nav-item item-control--active">
+                <a href="#">TODOS</a>
+              </li>
+              <li class="nav-item item-control">
+                <a href="#">QUINIELA</a>
+              </li>
+              <li class="nav-item item-control">
+                <a href="#">SURVIVOR</a>
+              </li>
+            </nav>
+          </div>
+
+          <div class="table-control--row">
+            MONEDA<br>
+            <nav class="nav">
+              <li class="nav-item item-control--active">
+                <a href="#">TODAS</a>
+              </li>
+              <li class="nav-item item-control">
+                <a href="#"><img [src]="cash1" class="item-control-img"></a>
+              </li>
+              <li class="nav-item item-control">
+                <a href="#"><img [src]="coin1" class="item-control-img"></a>
+              </li>
+            </nav>
+          </div>
+
+          <div class="table-control--row">
+            MONTO<br>
+            <nav class="nav">
+              <li class="nav-item item-control--active">
+                <a href="#">TODOS</a>
+              </li>
+              <li class="nav-item item-control">
+                <a href="#"><span class="item-control-quantity">$</span></a>
+              </li>
+              <li class="nav-item item-control">
+                <a href="#"><span class="item-control-quantity">$$</span></a>
+              </li>
+              <li class="nav-item item-control">
+                <a href="#"><span class="item-control-quantity">$$$</span></a>
+              </li>
+            </nav>
+          </div>
+
+          <div class="table-control--row">
+            TIPO<br>
+            <nav class="nav">
+              <li class="nav-item item-control--active">
+                <a href="#">TODAS</a>
+              </li>
+              <li class="nav-item item-control">
+                <a href="#">ABIERTA</a>
+              </li>
+              <li class="nav-item item-control--special">
+                <a href="#">C. LIMITADO</a>
+              </li>
+              <li class="nav-item item-control">
+                <a href="#">MAX</a>
+              </li>
+            </nav>
+          </div>
+
+          <div class="table-control--row">
+            DEPORTE<br>
+            <nav class="nav">
+              <li class="nav-item item-control--active">
+                <a href="#">TODOS</a>
+              </li>
+              <li class="nav-item item-control">
+                <a href="#"><img [src]="basketball" class="item-control-img"></a>
+              </li>
+              <li class="nav-item item-control">
+                <a href="#"><img [src]="futbol" class="item-control-img"></a>
+              </li>
+              <li class="nav-item item-control">
+                <a href="#"><img [src]="americano" class="item-control-img"></a>
+              </li>
+              <li class="nav-item item-control">
+                <a href="#"><img [src]="hockey" class="item-control-img"></a>
+              </li>
+            </nav>
+          </div>
+
+          <div class="table-control--row">
+            LIGA<br>
+            <nav class="nav">
+              <li class="nav-item item-control--single-button">
+                <a href="#">LIGAS</a>
+              </li>
+            </nav>
+          </div>
+
+          <div class="table-control--row">
+            ESTADO<br>
+            <nav class="nav">
+              <li class="nav-item item-control--single-button">
+                <a href="#">ESTADO</a>
+              </li>
+            </nav>
+          </div>
+
+      </div>
     </div>
+    <br>
 
-  </div>
+  <!--</div>-->
 

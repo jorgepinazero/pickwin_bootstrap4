@@ -5,7 +5,7 @@
     <div class="col-1
                 col-sm-1
                 col-md-1">
-      <img src="../../assets/img/pickwinColores-50.png">
+      <img [src]="pickwinlogo">
     </div>
 
     <div class="col-12
@@ -14,16 +14,16 @@
       <table>
         <tr>
           <td class="register">
-            <a href="#">
+            <div class="header-options" (click)="openRegister()">
               <span class="icon glyphicon glyphicon-user"></span>
               <span><i class="fas fa-user"></i>&nbsp;&nbsp;REGÍSTRATE</span>
-            </a>
+            </div>
           </td>
           <td class="log-in">
-            <a href="#">
+            <div class="header-options">
               <span class="icon glyphicon glyphicon-log-in"></span>
               <span><i class="fas fa-sign-in-alt"></i>&nbsp;&nbsp;INGRESAR</span>
-            </a>
+            </div>
           </td>
         </tr>
       </table>

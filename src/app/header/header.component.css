@@ -33,11 +33,6 @@ span{
   display:inline;
   vertical-align:middle;
 }
-
-span:hover{
-  color:#8EBA3A;
-  cursor: pointer;
-}
 .icon{
   font-size: 1rem;
 }
@@ -51,13 +46,9 @@ span:hover{
   text-align:center;
 }
 
-a{
-  color:white;
-}
-
-a:hover {
+.header-options:hover{
   color:#8EBA3A;
-  text-decoration: none;
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 768px) {
